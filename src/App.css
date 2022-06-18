@@ -2,9 +2,32 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button{   
+  border:none;
+  padding: 10ps 15px;
+  text-align:center;
+  text-decoration:none;
+  display:inline-block;
+  font-size:16px;
+  margin:4px 2px;
+  cursor:pointer;
+  color:black;
+  border:2px solid ;
+  border-radius: 5px;
+  width:50%;
+  margin-left:25%;
+  margin-right: 25%;
+}
+
+.content-box{
+  margin:0 auto;
+  background-color: #eee;
+  color:#222;
+  border-radius:8px;
+  padding: 30px 30px 40px 30px;
+  width:300px;
+  height:11px;
+
 }
 
 @media (prefers-reduced-motion: no-preference) {
